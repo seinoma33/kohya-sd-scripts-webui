@@ -78,6 +78,9 @@ def prepare_environment():
         if not launch.is_installed("triton"):
             launch.run_pip("install triton", "triton")
 
+        if not launch.is_installed("lion-pytorch"):
+            launch.run_pip("install lion-pytorch", "lion-pytorch")
+            
     if disable_strict_version:
         with open(os.path.join(repo_dir, requirements_file), "r") as f:
             txt = f.read()
