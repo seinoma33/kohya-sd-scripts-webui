@@ -20,3 +20,6 @@ https://github.com/ddpn08/kohya-sd-scripts-webui.git
 ## Start standalone
 
 Run `webui.bat` for Windows, `webui.sh` for Linux, MacOS
+
+
+!/opt/conda/bin/conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia --yes
